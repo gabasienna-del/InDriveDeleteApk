@@ -1,0 +1,9 @@
+.gradle/
+build/
+app/build/
+InDriveDeleteApk/.gradle/
+InDriveDeleteApk/build/
+local.properties
+.idea/
+*.iml
+*.apk
