@@ -8,61 +8,70 @@
 8        android:minSdkVersion="21"
 9        android:targetSdkVersion="34" />
 10
-11    <application
-11-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:2:5-14:19
-12        android:allowBackup="true"
-12-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:3:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.8.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0e2ba41b40b829d6835f40ce5814681b/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:extractNativeLibs="true"
-16        android:icon="@mipmap/ic_launcher"
-16-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:5:9-43
-17        android:label="InDriveDeleteApk"
-17-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:4:9-41
-18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:6:9-54
-19        android:supportsRtl="true" >
-19-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:7:9-35
-20        <activity
-20-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:8:9-13:20
-21            android:name="com.gaba.zumer.MainActivity"
-21-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:8:19-47
-22            android:exported="true" >
-22-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:8:48-71
-23            <intent-filter>
-23-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:9:13-12:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:10:17-69
-24-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:10:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:11:17-77
-26-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:11:27-74
-27            </intent-filter>
-28        </activity>
-29
-30        <provider
-30-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-31            android:name="androidx.startup.InitializationProvider"
-31-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-32            android:authorities="com.gaba.zumer.androidx-startup"
-32-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-33            android:exported="false" >
-33-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-34            <meta-data
-34-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-35                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-35-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-36                android:value="androidx.startup" />
-36-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-37            <meta-data
-37-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/aeb43c434ed96e99dd4cfedab7d0f86d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-38                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-38-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/aeb43c434ed96e99dd4cfedab7d0f86d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-39                android:value="androidx.startup" />
-39-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/aeb43c434ed96e99dd4cfedab7d0f86d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-40        </provider>
-41    </application>
-42
-43</manifest>
+11    <permission
+11-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/5fb000c41d4c895420173daaf7b6f0e7/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.gaba.zumer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/5fb000c41d4c895420173daaf7b6f0e7/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/5fb000c41d4c895420173daaf7b6f0e7/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.gaba.zumer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/5fb000c41d4c895420173daaf7b6f0e7/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/5fb000c41d4c895420173daaf7b6f0e7/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:4:5-17:19
+18        android:allowBackup="true"
+18-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/5fb000c41d4c895420173daaf7b6f0e7/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="true"
+22        android:label="InDriveDeleteApk"
+22-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:5:9-41
+23        android:supportsRtl="true"
+23-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:7:9-35
+24        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+24-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:8:9-65
+25        <activity
+25-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:10:9-15:20
+26            android:name="com.gaba.zumer.MainActivity"
+26-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:10:19-47
+27            android:exported="true" >
+27-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:10:48-71
+28            <intent-filter>
+28-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:11:13-14:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:12:17-69
+29-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:12:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:13:17-77
+31-->/data/data/com.termux/files/home/InDriveDeleteApk/app/src/main/AndroidManifest.xml:13:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+36            android:name="androidx.startup.InitializationProvider"
+36-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+37            android:authorities="com.gaba.zumer.androidx-startup"
+37-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+38            android:exported="false" >
+38-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+39            <meta-data
+39-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+40-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+41                android:value="androidx.startup" />
+41-->[androidx.emoji2:emoji2:1.2.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d6bd0e3eb9f2b11d5e7ea50a9b64947/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+42            <meta-data
+42-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/aeb43c434ed96e99dd4cfedab7d0f86d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/aeb43c434ed96e99dd4cfedab7d0f86d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+44                android:value="androidx.startup" />
+44-->[androidx.lifecycle:lifecycle-process:2.4.1] /data/data/com.termux/files/home/.gradle/caches/transforms-3/aeb43c434ed96e99dd4cfedab7d0f86d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+45        </provider>
+46    </application>
+47
+48</manifest>
